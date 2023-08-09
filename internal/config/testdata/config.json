@@ -1,0 +1,15 @@
+{
+    "forward_host": "localhost:8000",
+    "forward_scheme": "http",
+    "block": [
+        [
+            {
+                "method": "get"
+            },
+            {
+                "query_param": "test",
+                "value": "test"
+            }
+        ]
+    ]
+}

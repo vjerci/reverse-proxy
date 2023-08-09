@@ -1,0 +1,20 @@
+{
+    "forward_host": "jsonendpoint:8000",
+    "forward_scheme": "http",
+    "block": [
+        [
+            {
+                "method": "POST"
+            }
+        ],
+        [
+            {
+                "method": "DELETE"
+            },
+            {
+                "query_param": "test",
+                "value": "test"
+            }
+        ]
+    ]
+}
